@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="head">
+        <span id="player1">0</span>
+        <span>-</span>
+        <span id="player2">0</span>
+    </div>
+    <div class="container">
+        <div class="logo" id="div1">
+            <h2>You</h2>
+            <img src="" alt="" id="hand" />
+            <div class="buttons">
+                <div id="rock"><img src="assets/rock-logo.png" alt="" /></div>
+                <div id="paper"><img src="assets/paper-logo.png" alt="" /></div>
+                <div id="scissor"><img src="assets/scissors-logo.png" alt="" /></div>
+            </div>
+        </div>
+        <div class="vs" id="div2">
+            <img src="assets/vs.png" alt="" />
+        </div>
+        <div class="logo" id="div3">
+            <h2>comp</h2>
+            <img src="" alt="" id="opponent" />
+        </div>
+    </div>
+    <div id="over">
+        <h2><span id="winner"></span>won the game</h2>
+        <button id="Again">Play Again</button>
+    </div>
+    <audio src="assets/success-fanfare-trumpets-6185.mp3" id="audio"></audio>
+    <audio src="assets/archivo.mp3" id="failed"></audio>
+</body>
+<script src="script.js"></script>
+
+</html>

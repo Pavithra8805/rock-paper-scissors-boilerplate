@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700;800;900&family=Ephesis&family=Merriweather:ital,wght@0,300;1,300;1,700&family=Montserrat:wght@300;400;500;700&family=Poppins:wght@400;500;700&family=Signika&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cairo', sans-serif;
+}
+body{
+   background-color: black;
+}
+h1{
+    color: blue;
+    text-align: center;
+    margin-top: 2cm;
+    font-size: 45px;
+}
+#playImg{
+    margin-left: 8cm;
+    width: 14cm;
+    height: 14cm;
+}
+span img{
+    width: 1cm;
+}
+#play{
+    color: white;
+    font-size: larger;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1cm;
+    margin-right: 5cm;
+    margin-top: -2cm;
+}
